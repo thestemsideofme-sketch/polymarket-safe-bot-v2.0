@@ -1,0 +1,9 @@
+{
+  "wallet": {
+    "balance": 50
+  },
+  "positions": [],
+  "closedPositions": [],
+  "eventLocks": [],
+  "lastScan": null
+}

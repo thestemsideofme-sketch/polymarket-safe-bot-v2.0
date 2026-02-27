@@ -1,0 +1,21 @@
+{
+  "name": "polymarket-final-bot",
+  "version": "1.0.0",
+  "description": "bot that trades on polymarket",
+  "main": "engine.js",
+  "type": "module",
+  "scripts": {
+    "test": "start",
+    "start": "node engine.js"
+  },
+  "author": "Hiccup",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2",
+    "require": "^2.4.20",
+    "ws": "^8.19.0"
+  }
+}
