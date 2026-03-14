@@ -4,7 +4,7 @@ import { isEventLocked } from './state.js';
 
 // Configuration
 const BATCH_SIZE = 1; // Process 10 markets in parallel
-const DELAY_BETWEEN_BATCHES = 10; // ms pause between batches (VPN-friendly) delay between each batch processing
+const DELAY_BETWEEN_BATCHES = 50; // ms pause between batches (VPN-friendly) delay between each batch processing
 const REQUEST_TIMEOUT = 10000; // 10s timeout per request 
 
 function delay(ms) {

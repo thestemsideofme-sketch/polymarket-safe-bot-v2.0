@@ -7,7 +7,7 @@ import { monitor } from './monitor.js';
 import { startWebSocket, cleanup } from './websocket.js';
 
 const config = {
-  MAX_HOURS_TO_CLOSE: 4,
+  MAX_HOURS_TO_CLOSE: 1,
   MIN_PROBABILITY: 0.80,
   MAX_PROBABILITY: 0.96,
   MIN_LIQUIDITY_USD: 2.5,
@@ -16,7 +16,7 @@ const config = {
 };
 
 const MONITOR_INTERVAL = 1 * 60 * 1000; // 1 minute - check stops/resolutions
-const SCAN_INTERVAL = 2 * 60 * 60 * 1000; // 1 hour - scan for new markets
+const SCAN_INTERVAL = 1 * 60 * 60 * 1000; // 1 hour - scan for new markets
 
 // HTTP endpoint
 const app = express();
